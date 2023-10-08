@@ -22,7 +22,7 @@ def Map_Coloring():
         print("Tiểu bang( {0} ) = {1}".format(State,Colors_States[State]))
 
 def Read_File():
-    with open("D:\Mycode\Artificial Intelligence\Map_Coloring.txt",'r') as File:
+    with open("D:\Github\Map-Coloring\Map_Coloring.txt",'r') as File:
         Lines = File.readlines()
         Colors.extend(Lines[0].split())
         for i in range(1,len(Lines)):
